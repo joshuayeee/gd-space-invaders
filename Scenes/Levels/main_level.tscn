@@ -5,3 +5,16 @@
 [node name="MainLevel" type="Node2D" unique_id=1605100027]
 script = ExtResource("1_s08vq")
 metadata/_custom_type_script = "uid://c1gk5k07hmotc"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=895701246]
+
+[node name="BackLayer" type="CanvasLayer" parent="." unique_id=824738681]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="BackLayer" unique_id=1945319566]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
