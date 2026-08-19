@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://c1gk5k07hmotc" path="res://Scripts/level.gd" id="1_s08vq"]
 [ext_resource type="PackedScene" uid="uid://uhqtfi66coff" path="res://Scenes/player.tscn" id="2_o3eya"]
+[ext_resource type="PackedScene" uid="uid://jaohvjmuqwc4" path="res://Scenes/bullet_manager.tscn" id="2_vl75t"]
 [ext_resource type="PackedScene" uid="uid://cbqi4nlyi2vjw" path="res://Scenes/wall.tscn" id="3_tgb3g"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_jh5pk"]
@@ -27,8 +28,12 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="Player" parent="." unique_id=1715923871 instance=ExtResource("2_o3eya")]
+[node name="BulletManager" parent="." unique_id=398530995 instance=ExtResource("2_vl75t")]
+
+[node name="Player" parent="." unique_id=1715923871 node_paths=PackedStringArray("level", "bullet_manager") instance=ExtResource("2_o3eya")]
 position = Vector2(0, 296)
+level = NodePath("..")
+bullet_manager = NodePath("../BulletManager")
 
 [node name="LeftWall" parent="." unique_id=1442771496 instance=ExtResource("3_tgb3g")]
 position = Vector2(-576, 0)
