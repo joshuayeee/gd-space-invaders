@@ -2,6 +2,13 @@
 
 [ext_resource type="Script" uid="uid://c1gk5k07hmotc" path="res://Scripts/level.gd" id="1_s08vq"]
 [ext_resource type="PackedScene" uid="uid://uhqtfi66coff" path="res://Scenes/player.tscn" id="2_o3eya"]
+[ext_resource type="PackedScene" uid="uid://cbqi4nlyi2vjw" path="res://Scenes/wall.tscn" id="3_tgb3g"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_jh5pk"]
+normal = Vector2(1, 0)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ydotr"]
+normal = Vector2(-1, 0)
 
 [node name="MainLevel" type="Node2D" unique_id=1605100027]
 script = ExtResource("1_s08vq")
@@ -22,3 +29,15 @@ color = Color(0, 0, 0, 1)
 
 [node name="Player" parent="." unique_id=1715923871 instance=ExtResource("2_o3eya")]
 position = Vector2(0, 296)
+
+[node name="LeftWall" parent="." unique_id=1442771496 instance=ExtResource("3_tgb3g")]
+position = Vector2(-576, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" unique_id=23622189]
+shape = SubResource("WorldBoundaryShape2D_jh5pk")
+
+[node name="RightWall" parent="." unique_id=70079357 instance=ExtResource("3_tgb3g")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall" unique_id=976687766]
+position = Vector2(576, 0)
+shape = SubResource("WorldBoundaryShape2D_ydotr")
