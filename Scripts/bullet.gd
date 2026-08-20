@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 class_name Bullet
 
-const SPEED: float = 300.0
+const SPEED: float = 500.0
 
 func _physics_process(_delta: float) -> void:
 	velocity = Vector2.UP * SPEED

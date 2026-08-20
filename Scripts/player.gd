@@ -15,9 +15,9 @@ func _physics_process(_delta: float) -> void:
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	
-	if (Input.is_action_just_pressed("shoot")):
+	if (Input.is_action_pressed("shoot")):
 		var bullet: Bullet = BULLET.instantiate()
 		bullet.position = position
-		bullet_manager.add_child(bullet)
+		bullet_manager.add_bullet(bullet)
 	
 	move_and_slide()
