@@ -10,5 +10,5 @@ func _physics_process(_delta: float) -> void:
 	if (move_and_slide()):
 		queue_free()
 
-func destroy_bullet() -> void:
+func _on_visible_on_screen_notifier_2d_screen_exited() -> void:
 	queue_free()
