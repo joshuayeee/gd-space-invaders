@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://uhqtfi66coff" path="res://Scenes/player.tscn" id="2_o3eya"]
 [ext_resource type="PackedScene" uid="uid://jaohvjmuqwc4" path="res://Scenes/bullet_manager.tscn" id="2_vl75t"]
 [ext_resource type="PackedScene" uid="uid://cbqi4nlyi2vjw" path="res://Scenes/wall.tscn" id="3_tgb3g"]
+[ext_resource type="PackedScene" uid="uid://chp7ojnew13gk" path="res://Scenes/barrier.tscn" id="5_soxo8"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_jh5pk"]
 normal = Vector2(1, 0)
@@ -46,3 +47,15 @@ shape = SubResource("WorldBoundaryShape2D_jh5pk")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall" unique_id=976687766]
 position = Vector2(576, 0)
 shape = SubResource("WorldBoundaryShape2D_ydotr")
+
+[node name="Barrier" parent="." unique_id=1004641857 instance=ExtResource("5_soxo8")]
+position = Vector2(-384, 240)
+
+[node name="Barrier2" parent="." unique_id=800453156 instance=ExtResource("5_soxo8")]
+position = Vector2(-128, 240)
+
+[node name="Barrier3" parent="." unique_id=1747304391 instance=ExtResource("5_soxo8")]
+position = Vector2(128, 240)
+
+[node name="Barrier4" parent="." unique_id=1036566137 instance=ExtResource("5_soxo8")]
+position = Vector2(384, 240)

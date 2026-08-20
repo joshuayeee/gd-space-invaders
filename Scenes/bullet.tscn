@@ -1,23 +1,24 @@
 [gd_scene format=3 uid="uid://cl3y7nhmch4ao"]
 
 [ext_resource type="Script" uid="uid://dinoggpcaa26y" path="res://Scripts/bullet.gd" id="1_oduel"]
-[ext_resource type="Texture2D" uid="uid://dtt7ydih405hg" path="res://Assets/Sprites/White.png" id="1_xjght"]
+[ext_resource type="Texture2D" uid="uid://4bny3n5v0yws" path="res://Assets/Sprites/LimeGreen.png" id="2_oduel"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jh5pk"]
 size = Vector2(8, 16)
 
 [node name="Bullet" type="CharacterBody2D" unique_id=29288740]
 collision_layer = 8
-collision_mask = 0
+collision_mask = 16
 script = ExtResource("1_oduel")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1826928122]
 scale = Vector2(0.5, 1)
-texture = ExtResource("1_xjght")
+texture = ExtResource("2_oduel")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1855660074]
 shape = SubResource("RectangleShape2D_jh5pk")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." unique_id=795437543]
+rect = Rect2(-4, -8, 8, 16)
 
-[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="destroy_bullet"]

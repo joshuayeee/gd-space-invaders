@@ -1,0 +1,220 @@
+[gd_scene format=3 uid="uid://chp7ojnew13gk"]
+
+[ext_resource type="PackedScene" uid="uid://cljfldomhnjku" path="res://Scenes/barrier_piece.tscn" id="1_725b1"]
+
+[node name="Barrier" type="Node2D" unique_id=1004641857]
+
+[node name="BarrierPiece" parent="." unique_id=1379206597 instance=ExtResource("1_725b1")]
+position = Vector2(-24, 0)
+
+[node name="BarrierPiece2" parent="." unique_id=742389245 instance=ExtResource("1_725b1")]
+position = Vector2(-16, 0)
+
+[node name="BarrierPiece3" parent="." unique_id=2126449202 instance=ExtResource("1_725b1")]
+position = Vector2(-8, 0)
+
+[node name="BarrierPiece6" parent="." unique_id=96765568 instance=ExtResource("1_725b1")]
+
+[node name="BarrierPiece7" parent="." unique_id=1401490922 instance=ExtResource("1_725b1")]
+position = Vector2(8, 0)
+
+[node name="BarrierPiece8" parent="." unique_id=1512624274 instance=ExtResource("1_725b1")]
+position = Vector2(16, 0)
+
+[node name="BarrierPiece9" parent="." unique_id=892282721 instance=ExtResource("1_725b1")]
+position = Vector2(24, 0)
+
+[node name="BarrierPiece10" parent="." unique_id=869982856 instance=ExtResource("1_725b1")]
+position = Vector2(32, 8)
+
+[node name="BarrierPiece11" parent="." unique_id=1310778181 instance=ExtResource("1_725b1")]
+position = Vector2(40, 8)
+
+[node name="BarrierPiece12" parent="." unique_id=499677119 instance=ExtResource("1_725b1")]
+position = Vector2(48, 8)
+
+[node name="BarrierPiece13" parent="." unique_id=1817126792 instance=ExtResource("1_725b1")]
+position = Vector2(-48, 8)
+
+[node name="BarrierPiece14" parent="." unique_id=347668916 instance=ExtResource("1_725b1")]
+position = Vector2(-40, 8)
+
+[node name="BarrierPiece15" parent="." unique_id=38459643 instance=ExtResource("1_725b1")]
+position = Vector2(-32, 8)
+
+[node name="BarrierPiece16" parent="." unique_id=1204471109 instance=ExtResource("1_725b1")]
+position = Vector2(-48, 0)
+
+[node name="BarrierPiece17" parent="." unique_id=102931210 instance=ExtResource("1_725b1")]
+position = Vector2(-40, 0)
+
+[node name="BarrierPiece18" parent="." unique_id=337731394 instance=ExtResource("1_725b1")]
+position = Vector2(-32, 0)
+
+[node name="BarrierPiece19" parent="." unique_id=354852367 instance=ExtResource("1_725b1")]
+position = Vector2(32, 0)
+
+[node name="BarrierPiece20" parent="." unique_id=302730371 instance=ExtResource("1_725b1")]
+position = Vector2(40, 0)
+
+[node name="BarrierPiece21" parent="." unique_id=154297749 instance=ExtResource("1_725b1")]
+position = Vector2(48, 0)
+
+[node name="BarrierPiece22" parent="." unique_id=1620607514 instance=ExtResource("1_725b1")]
+position = Vector2(-24, -8)
+
+[node name="BarrierPiece23" parent="." unique_id=1000406818 instance=ExtResource("1_725b1")]
+position = Vector2(-16, -8)
+
+[node name="BarrierPiece24" parent="." unique_id=1064933682 instance=ExtResource("1_725b1")]
+position = Vector2(-8, -8)
+
+[node name="BarrierPiece27" parent="." unique_id=1083433040 instance=ExtResource("1_725b1")]
+position = Vector2(0, -8)
+
+[node name="BarrierPiece28" parent="." unique_id=2039943789 instance=ExtResource("1_725b1")]
+position = Vector2(8, -8)
+
+[node name="BarrierPiece29" parent="." unique_id=600351317 instance=ExtResource("1_725b1")]
+position = Vector2(16, -8)
+
+[node name="BarrierPiece30" parent="." unique_id=460395644 instance=ExtResource("1_725b1")]
+position = Vector2(24, -8)
+
+[node name="BarrierPiece31" parent="." unique_id=842077208 instance=ExtResource("1_725b1")]
+position = Vector2(-48, -8)
+
+[node name="BarrierPiece32" parent="." unique_id=1341407542 instance=ExtResource("1_725b1")]
+position = Vector2(-40, -8)
+
+[node name="BarrierPiece33" parent="." unique_id=502950446 instance=ExtResource("1_725b1")]
+position = Vector2(-32, -8)
+
+[node name="BarrierPiece34" parent="." unique_id=1502596886 instance=ExtResource("1_725b1")]
+position = Vector2(32, -8)
+
+[node name="BarrierPiece35" parent="." unique_id=1828285451 instance=ExtResource("1_725b1")]
+position = Vector2(40, -8)
+
+[node name="BarrierPiece36" parent="." unique_id=1160224491 instance=ExtResource("1_725b1")]
+position = Vector2(48, -8)
+
+[node name="BarrierPiece67" parent="." unique_id=248928816 instance=ExtResource("1_725b1")]
+position = Vector2(-24, -16)
+
+[node name="BarrierPiece68" parent="." unique_id=1502202715 instance=ExtResource("1_725b1")]
+position = Vector2(-16, -16)
+
+[node name="BarrierPiece69" parent="." unique_id=1913801315 instance=ExtResource("1_725b1")]
+position = Vector2(-8, -16)
+
+[node name="BarrierPiece72" parent="." unique_id=1672773109 instance=ExtResource("1_725b1")]
+position = Vector2(0, -16)
+
+[node name="BarrierPiece73" parent="." unique_id=1811165646 instance=ExtResource("1_725b1")]
+position = Vector2(8, -16)
+
+[node name="BarrierPiece74" parent="." unique_id=465608140 instance=ExtResource("1_725b1")]
+position = Vector2(16, -16)
+
+[node name="BarrierPiece75" parent="." unique_id=931273894 instance=ExtResource("1_725b1")]
+position = Vector2(24, -16)
+
+[node name="BarrierPiece76" parent="." unique_id=1944679421 instance=ExtResource("1_725b1")]
+position = Vector2(-48, -16)
+
+[node name="BarrierPiece77" parent="." unique_id=1761830 instance=ExtResource("1_725b1")]
+position = Vector2(-40, -16)
+
+[node name="BarrierPiece78" parent="." unique_id=1709515896 instance=ExtResource("1_725b1")]
+position = Vector2(-32, -16)
+
+[node name="BarrierPiece79" parent="." unique_id=1382434567 instance=ExtResource("1_725b1")]
+position = Vector2(32, -16)
+
+[node name="BarrierPiece80" parent="." unique_id=1377186076 instance=ExtResource("1_725b1")]
+position = Vector2(40, -16)
+
+[node name="BarrierPiece81" parent="." unique_id=798571215 instance=ExtResource("1_725b1")]
+position = Vector2(48, -16)
+
+[node name="BarrierPiece82" parent="." unique_id=1696683657 instance=ExtResource("1_725b1")]
+position = Vector2(-24, -24)
+
+[node name="BarrierPiece83" parent="." unique_id=1337226237 instance=ExtResource("1_725b1")]
+position = Vector2(-16, -24)
+
+[node name="BarrierPiece84" parent="." unique_id=1836592576 instance=ExtResource("1_725b1")]
+position = Vector2(-8, -24)
+
+[node name="BarrierPiece87" parent="." unique_id=738859948 instance=ExtResource("1_725b1")]
+position = Vector2(0, -24)
+
+[node name="BarrierPiece88" parent="." unique_id=1776307038 instance=ExtResource("1_725b1")]
+position = Vector2(8, -24)
+
+[node name="BarrierPiece89" parent="." unique_id=1119430456 instance=ExtResource("1_725b1")]
+position = Vector2(16, -24)
+
+[node name="BarrierPiece90" parent="." unique_id=1243714361 instance=ExtResource("1_725b1")]
+position = Vector2(24, -24)
+
+[node name="BarrierPiece92" parent="." unique_id=2007695788 instance=ExtResource("1_725b1")]
+position = Vector2(-40, -24)
+
+[node name="BarrierPiece93" parent="." unique_id=1668107853 instance=ExtResource("1_725b1")]
+position = Vector2(-32, -24)
+
+[node name="BarrierPiece94" parent="." unique_id=1124086417 instance=ExtResource("1_725b1")]
+position = Vector2(32, -24)
+
+[node name="BarrierPiece91" parent="." unique_id=1950633996 instance=ExtResource("1_725b1")]
+position = Vector2(-24, -32)
+
+[node name="BarrierPiece96" parent="." unique_id=586785598 instance=ExtResource("1_725b1")]
+position = Vector2(-16, -32)
+
+[node name="BarrierPiece97" parent="." unique_id=1603187582 instance=ExtResource("1_725b1")]
+position = Vector2(-8, -32)
+
+[node name="BarrierPiece100" parent="." unique_id=694355720 instance=ExtResource("1_725b1")]
+position = Vector2(0, -32)
+
+[node name="BarrierPiece101" parent="." unique_id=552103148 instance=ExtResource("1_725b1")]
+position = Vector2(8, -32)
+
+[node name="BarrierPiece102" parent="." unique_id=1434395622 instance=ExtResource("1_725b1")]
+position = Vector2(16, -32)
+
+[node name="BarrierPiece103" parent="." unique_id=1146458396 instance=ExtResource("1_725b1")]
+position = Vector2(24, -32)
+
+[node name="BarrierPiece106" parent="." unique_id=1471201871 instance=ExtResource("1_725b1")]
+position = Vector2(-24, -40)
+
+[node name="BarrierPiece107" parent="." unique_id=1526608813 instance=ExtResource("1_725b1")]
+position = Vector2(-16, -40)
+
+[node name="BarrierPiece108" parent="." unique_id=487508283 instance=ExtResource("1_725b1")]
+position = Vector2(-8, -40)
+
+[node name="BarrierPiece111" parent="." unique_id=798761965 instance=ExtResource("1_725b1")]
+position = Vector2(0, -40)
+
+[node name="BarrierPiece112" parent="." unique_id=1666727732 instance=ExtResource("1_725b1")]
+position = Vector2(8, -40)
+
+[node name="BarrierPiece113" parent="." unique_id=716579446 instance=ExtResource("1_725b1")]
+position = Vector2(16, -40)
+
+[node name="BarrierPiece114" parent="." unique_id=1095113662 instance=ExtResource("1_725b1")]
+position = Vector2(24, -40)
+
+[node name="BarrierPiece104" parent="." unique_id=1930500137 instance=ExtResource("1_725b1")]
+position = Vector2(-32, -32)
+
+[node name="BarrierPiece105" parent="." unique_id=1354107015 instance=ExtResource("1_725b1")]
+position = Vector2(32, -32)
+
+[node name="BarrierPiece95" parent="." unique_id=1653423592 instance=ExtResource("1_725b1")]
+position = Vector2(40, -24)
